@@ -23,9 +23,11 @@ function trigger()
                             local max = 0
 
                             -- loop all the filters and set the max to it if it matches
-                            for _, filter in pairs(logistic_chest.filters) do
-                                if (filter.name == item) then
-                                    max = filter.count
+                            if (logistic_chest.filters) then
+                                for _, filter in pairs(logistic_chest.filters) do
+                                    if (filter.name == item) then
+                                        max = filter.count
+                                    end
                                 end
                             end
 
