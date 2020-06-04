@@ -1,0 +1,9 @@
+{
+  "name": "Buffer_Overflow",
+  "version": "1.0.0",
+  "factorio_version": "0.18",
+  "title": "Buffer Overflow",
+  "author": "Quezler",
+  "dependencies": ["base"],
+  "description": "Buffer chests return their overstock back to the network."
+}
